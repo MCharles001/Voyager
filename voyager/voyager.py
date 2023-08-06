@@ -44,7 +44,7 @@ class Voyager:
         skill_manager_model_name: str = "gpt-3.5-turbo-16k",
         skill_manager_temperature: float = 0,
         skill_manager_retrieval_top_k: int = 5,
-        openai_api_request_timeout: int = 240,
+        openai_api_request_timeout: int = 1240,
         ckpt_dir: str = "ckpt",
         skill_library_dir: str = None,
         resume: bool = False,
